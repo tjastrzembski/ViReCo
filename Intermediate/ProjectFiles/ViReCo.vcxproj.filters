@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ViReCo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1036832C-241A-49E4-9AC8-9E27C0DD6A76}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ViReCo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ViReCoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D82A971A-0DE6-43BB-8CDD-784264859060}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ViReCo">
+			<UniqueIdentifier>{BE7C1A92-A15A-490C-A3BF-23ABCF781212}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ViReCo\ViReCo.Build.cs">
+			<Filter>Source\ViReCo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ViReCo\ViReCo.cpp">
+			<Filter>Source\ViReCo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ViReCo\ViReCo.h">
+			<Filter>Source\ViReCo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ViReCo\ViReCoCharacter.cpp">
+			<Filter>Source\ViReCo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ViReCo\ViReCoCharacter.h">
+			<Filter>Source\ViReCo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ViReCo\ViReCoGameMode.cpp">
+			<Filter>Source\ViReCo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ViReCo\ViReCoGameMode.h">
+			<Filter>Source\ViReCo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ViReCo\ViReCoHUD.cpp">
+			<Filter>Source\ViReCo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ViReCo\ViReCoHUD.h">
+			<Filter>Source\ViReCo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ViReCo\ViReCoProjectile.cpp">
+			<Filter>Source\ViReCo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ViReCo\ViReCoProjectile.h">
+			<Filter>Source\ViReCo</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
