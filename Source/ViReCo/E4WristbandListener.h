@@ -27,9 +27,26 @@ public:
 	UE4WristbandListener();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Server)
-	FString serverAdress;
+		FString serverAddress;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = Server)
-	int port;
+		int port;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = E4Wristband)
+		FString deviceID;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		FVector acc;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float bvp;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float gsr;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float hr;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float ibi;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float tmp;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = E4Wristband)
+		float bat;
 
 protected:
 	// Called when the game starts
@@ -45,7 +62,8 @@ public:
 	* Qparam port
 	*/
 
-	bool ConnectToServer(const FString& serverAddress, const uint32& port);
+	bool ConnectToServer(void);
+	bool ConnectToDevice(void);
 
 
 	/*
@@ -57,7 +75,10 @@ public:
 
 	bool IsConnected();
 
+	void UpdateData(void);
+
 private:
 	class FSocket* Socket;
 	FString LastMessage;
+	bool deviceConnected;
 };
