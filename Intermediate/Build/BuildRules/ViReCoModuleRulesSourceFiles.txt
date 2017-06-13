@@ -1,3 +1,0 @@
-T:\Projects\ViReCo\Source\ViReCo\ViReCo.Build.cs
-T:\Projects\ViReCo\Source\ViReCo.Target.cs
-T:\Projects\ViReCo\Source\ViReCoEditor.Target.cs

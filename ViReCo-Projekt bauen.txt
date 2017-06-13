@@ -1,0 +1,2 @@
+Visual Studio-Dateien via Rechtsklick auf "ViReCo.uproject" generieren.
+Der Rest wird beim Starten des Projekts im UnrealEngineEditor generiert.
