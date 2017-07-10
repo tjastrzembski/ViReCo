@@ -61,7 +61,6 @@ void UE4WristbandClient::TickComponent(float DeltaTime, ELevelTick TickType, FAc
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	//UE_LOG(E4WristbandLogs, Error, TEXT("%f"), currentDeltaTime);
 	currentDeltaTime += DeltaTime;
 	if (currentDeltaTime > maxDeltaTime)
 		if (deviceConnected)

@@ -10,7 +10,7 @@
 
 #include "E4Wristband_logged.generated.h"
 
-#define DEBUG_E4 
+//#define DEBUG_E4 
 #ifdef DEBUG_E4
 DECLARE_LOG_CATEGORY_EXTERN(UE4Wristband, Log, All);
 #endif
